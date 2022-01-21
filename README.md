@@ -9,5 +9,5 @@ To improve on the program's security, it is encrypted end to end using asymmetri
 ## Getting Started
 The Project is built with: 
 ```
-[https://nodejs.org/en/]Node.js
+Node.js
 ```
