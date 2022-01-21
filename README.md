@@ -76,4 +76,17 @@ In the /storeKeys endpoint, the public key is stored in the database in the stor
 
 2. When running the getway app on port 4000, the user receives the login form UI where they fill in details. Upon clicking the submit button, the application hits the /login endpoint parsing the inserted details to a variable reqBody. After this a sendRequest function gets called, which first queries the db for the public key and uses it to encrypt the reqBody.   
 
-![uio](https://user-images.githubusercontent.com/65035748/150593035-92b3bda4-0ccd-4255-b220-97e10a6b01d6.png)
+![uio](https://user-images.githubusercontent.com/65035748/150593035-92b3bda4-0ccd-4255-b220-97e10a6b01d6.png)   
+
+3. The next step is to forward the encrypted string using axios http client post method to the /authenticate endpoint in the usermanagement API to validate the entered details with database records.   
+
+![klo](https://user-images.githubusercontent.com/65035748/150593757-115910ae-9705-49ba-9f2a-6206aaa3543c.png)   
+
+4. In the API, at the /authenticate endpoint, we get the encrypted string and parse it as JSON. We then retrieve the private key locally stored key_private variable and use it to decrypt the string. The results of this is the sent email and password. We may then do a query on the database using these details and send back a response to the getway from our results. A response with the status code 200 means successful login whereas a response with status code 401 means the login was not successful.   
+![lop](https://user-images.githubusercontent.com/65035748/150594863-3b7f6cf2-b945-4673-ace4-ab03035c22a7.png)   
+
+![bcm](https://user-images.githubusercontent.com/65035748/150595114-e9bd7bf4-58c6-434b-b2c9-80472b228e67.png)   
+
+5. The axios upon receiving the response from the API validates the status code and if it is 200 it will render the homepage to the user with a welcome display message. However, if the status code is 401, then it will render the login page and display an error message.   
+
+![dks](https://user-images.githubusercontent.com/65035748/150596010-c95d8a81-dab2-43dc-bdc6-42201982cdbf.png)
