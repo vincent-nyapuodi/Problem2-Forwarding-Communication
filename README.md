@@ -62,3 +62,5 @@ password: 123a
 </br>
 
 ## Behind the scenes
+### Sequence Diagram
+![login sequence diagram](https://user-images.githubusercontent.com/65035748/150589771-4e7e4168-2dfe-42d4-a026-c87ef12fc236.png)
