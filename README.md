@@ -15,11 +15,14 @@ Node.js
 ### Prerequisites
 To get the program up and locally running on your system, follow these simple steps:
 1. You will need to [download and setup Node JS](https://nodejs.org/en/) on your computer to run this program.
-2. Run the following command on your IDE's terminal to install all dependencies tied to the project as in the package.json file. You should repeat this step for both the getWay application and the userManagement application.
+2. Provided in the project zip folder is the MySQL database (login-node.sql). You may import this to your MySQL Administration tool and ensure that it runs on default port 3306. The database has two tables:
+    - Users table - contains data pertaining the registered users.
+    - storedkeys table - stores the public key whenever generated
+4. Then, run the following command on your IDE's terminal to install all dependencies tied to the project as defined in the package.json file. You should repeat this step for both the getWay application and the userManagement application.
 ```
 npm install
 ```
-3. Still on the terminal, run the following command to start the projects on their dedicated ports. getWay listens to port 4000 while userManagement app listens to port 40001.
+3. Still on the terminal, run the following command to start the projects on their dedicated ports. getWay listens to port 4000 while userManagement app listens to port 4001.
 ```
 npm start
 ```
