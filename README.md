@@ -63,8 +63,11 @@ password: 123a
 
 ## Behind the scenes
 ### Sequence Diagram
-This diagram explains the series of events taking place in the backend of the program between the getway application and the usermanagement application.
-![login sequence diagram](https://user-images.githubusercontent.com/65035748/150589771-4e7e4168-2dfe-42d4-a026-c87ef12fc236.png)
+This diagram explains the series of events taking place in the backend of the program between the getway application and the usermanagement application.   
 
-1. When the usermanagement server is started, it calls a generate key function that initializes the Node-RSA keys and extracts the private and public keys. The private key is stored into an empty string, key_private, and the public key is sent to the /storeKeys endpoint on the getway application using an axios http client.
+![login sequence diagram](https://user-images.githubusercontent.com/65035748/150589771-4e7e4168-2dfe-42d4-a026-c87ef12fc236.png)   
+
+
+1. When the usermanagement server is started, it calls a generate key function that initializes the Node-RSA keys where the private and public keys are extracted from. The private key is stored into an empty string, key_private, and the public key is sent to the /storeKeys endpoint on the getway application using an axios http client.   
+
 ![1111](https://user-images.githubusercontent.com/65035748/150591179-af41a165-b9b1-4e70-b839-4049a7c8cc88.png)
