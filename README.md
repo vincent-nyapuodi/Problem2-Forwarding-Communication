@@ -33,7 +33,7 @@ npm start
 
 </br>
 
-### How to Use Project
+## How to Use Project
 After successfully starting both servers on the getway and usermanagement applications, and also connecting to MySQL, this is how to go about the project:   
 1. On your web browser start the following.
 ```
