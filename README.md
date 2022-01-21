@@ -43,6 +43,7 @@ http://localhost:4000/
   This will bring up a Login Form UI to the user
   ![1233](https://user-images.githubusercontent.com/65035748/150556619-71c6d494-8118-45f8-a83d-ad0bd01ac8c7.png)
 
+</br>
 2. Input the following correct login details.   
 ```
 email: vin@email.com
@@ -54,3 +55,7 @@ password: 123a
      
   Unsuccessful Login:
   ![323](https://user-images.githubusercontent.com/65035748/150559004-d11cc4e6-94b0-4512-bab1-822428d61e16.png)
+
+</br>
+
+### Behind the scenes
