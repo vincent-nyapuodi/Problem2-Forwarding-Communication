@@ -39,6 +39,6 @@ After successfully starting both servers on the getway and usermanagement applic
 ```
 http://localhost:4000/
 ```
-**Expected results:**
-This will bring up a Login Form UI to the user
-![1233](https://user-images.githubusercontent.com/65035748/150556619-71c6d494-8118-45f8-a83d-ad0bd01ac8c7.png)
+**Expected results:**   
+  This will bring up a Login Form UI to the user
+  ![1233](https://user-images.githubusercontent.com/65035748/150556619-71c6d494-8118-45f8-a83d-ad0bd01ac8c7.png)
