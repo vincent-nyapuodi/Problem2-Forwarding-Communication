@@ -48,3 +48,9 @@ http://localhost:4000/
 email: vin@email.com
 password: 123a
 ```
+**Expected results:**   
+  On Successful Login: Display Homescreen dashboard
+  ![122](https://user-images.githubusercontent.com/65035748/150558556-783939ec-9530-442c-9de5-b384c91372e0.png)
+     
+  Unsuccessful Login: Display error
+  ![323](https://user-images.githubusercontent.com/65035748/150559004-d11cc4e6-94b0-4512-bab1-822428d61e16.png)
