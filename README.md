@@ -30,3 +30,6 @@ npm start
 **Expected results:**
 
 ![12](https://user-images.githubusercontent.com/65035748/150553405-d412675b-2e07-43c4-9384-0281f7be9320.png)
+
+
+### Prerequisites
