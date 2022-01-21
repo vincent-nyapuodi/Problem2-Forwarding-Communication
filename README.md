@@ -12,7 +12,7 @@ The Project is built with:
 Node.js
 ```
 
-###### Prerequisites
+### Prerequisites
 To get the program up and locally running on your system, follow these simple steps:
 1. You will need to [download and setup Node JS](https://nodejs.org/en/) on your computer to run this program.
 2. 
