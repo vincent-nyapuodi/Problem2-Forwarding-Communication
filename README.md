@@ -68,7 +68,12 @@ This diagram explains the series of events taking place in the backend of the pr
 ![login sequence diagram](https://user-images.githubusercontent.com/65035748/150589771-4e7e4168-2dfe-42d4-a026-c87ef12fc236.png)   
 
 
-1. When the usermanagement server is started, it calls a generate key function that initializes the Node-RSA keys where the private and public keys are extracted from. The private key is stored into an empty string, key_private, and the public key is sent to the /storeKeys endpoint on the getway application using an axios http client. 
+1. When the usermanagement server is started, it calls a generate key function that initializes the Node-RSA keys where the private and public keys are extracted from. The private key is stored into an empty string, key_private, and the public key is sent to the /storeKeys endpoint on the getway application using an axios http client.   
+ 
 ![1111](https://user-images.githubusercontent.com/65035748/150591179-af41a165-b9b1-4e70-b839-4049a7c8cc88.png)   
 In the /storeKeys endpoint, the public key is stored in the database in the storedkeys table.   
-![fggh](https://user-images.githubusercontent.com/65035748/150592055-c34e570c-1286-40b1-9c7f-c19b4164018d.png)
+![fggh](https://user-images.githubusercontent.com/65035748/150592055-c34e570c-1286-40b1-9c7f-c19b4164018d.png)   
+
+2. When running the getway app on port 4000, the user receives the login form UI where they fill in details. Upon clicking the submit button, the application hits the /login endpoint parsing the inserted details to a variable reqBody. After this a sendRequest function gets called, which first queries the db for the public key and uses it to encrypt the reqBody.   
+
+![uio](https://user-images.githubusercontent.com/65035748/150593035-92b3bda4-0ccd-4255-b220-97e10a6b01d6.png)
