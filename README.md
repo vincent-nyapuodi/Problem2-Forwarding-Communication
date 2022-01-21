@@ -23,7 +23,7 @@ To get the program up and locally running on your system, follow these simple st
 ```
 npm install
 ```
-3. Still on the terminals, run the following command to start the projects on their dedicated ports. getWay listens to port 4000 while userManagement app listens to port 4001. Upon starting the usermanagement API server, a key exchange will happen between the two applications.
+3. Still on the terminals, run the following command to start the projects on their dedicated ports. Start the getway app first followed by the usermanagement. getWay listens to port 4000 while userManagement app listens to port 4001. Upon starting the usermanagement API server, a key exchange will happen between the two applications.
 ```
 npm start
 ```
