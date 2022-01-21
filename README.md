@@ -44,6 +44,7 @@ http://localhost:4000/
   ![1233](https://user-images.githubusercontent.com/65035748/150556619-71c6d494-8118-45f8-a83d-ad0bd01ac8c7.png)
 
 </br>
+
 2. Input the following correct login details.   
 ```
 email: vin@email.com
