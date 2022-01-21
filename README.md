@@ -48,6 +48,8 @@ http://localhost:4000/
 2. Input the following correct login details.   
 ```
 email: vin@email.com
+```
+```
 password: 123a
 ```
 **Expected results:**   
