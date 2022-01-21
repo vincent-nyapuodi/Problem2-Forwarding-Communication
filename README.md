@@ -32,6 +32,13 @@ npm start
 ![12](https://user-images.githubusercontent.com/65035748/150553405-d412675b-2e07-43c4-9384-0281f7be9320.png)
 
 </br>
-</br>
 
 ### How to Use Project
+After successfully starting both servers on the getway and usermanagement applications, and also connecting to MySQL, this is how to go about the project:   
+1. On your web browser start the following.
+```
+http://localhost:4000/
+```
+**Expected results:**
+This will bring up a Login Form UI to the user
+![1233](https://user-images.githubusercontent.com/65035748/150556619-71c6d494-8118-45f8-a83d-ad0bd01ac8c7.png)
