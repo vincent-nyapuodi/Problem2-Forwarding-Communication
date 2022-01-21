@@ -33,4 +33,5 @@ npm start
 
 </br>
 </br>
-### Prerequisites
+
+### How to Use Project
