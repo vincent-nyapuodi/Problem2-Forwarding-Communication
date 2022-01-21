@@ -11,3 +11,4 @@ The Project is built with:
 ```
 Node.js
 ```
+To get the program up and locally running on your system, follow these simple steps:
